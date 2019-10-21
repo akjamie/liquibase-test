@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/h2/test;DB_CLOSE_DELAY=-1;MODE=MYSQL
+    username: jamie
+    password: Hsbc1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  liquibase:
+    change-log: classpath:/db/changelog.xml
+    enabled: false
+    database-change-log-lock-table: database_changelog_lock
+    database-change-log-table: database_changelog
+    test-rollback-on-update: true
+  h2:
+    console:
+      path: /console
+      enabled: true
