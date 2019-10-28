@@ -1,0 +1,1 @@
+delete from customers_audit where id between 1 and 17;

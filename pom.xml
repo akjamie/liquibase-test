@@ -6,7 +6,7 @@
 
     <groupId>org.akj.test.liquibase</groupId>
     <artifactId>liquibase-test</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -50,18 +50,10 @@
         </dependency>
 
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.200</version>
-            <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
             <version>3.8.0</version>
         </dependency>
-
     </dependencies>
 
     <profiles>
@@ -94,9 +86,6 @@
                         <artifactId>liquibase-maven-plugin</artifactId>
                         <version>${liquibase.version}</version>
                         <configuration>
-                            <propertyFile>src/main/resources/liquibase-${env.context}.properties</propertyFile>
-<!--                            <databaseChangeLogLockTableName>database_changelog_lock</databaseChangeLogLockTableName>-->
-<!--                            <databaseChangeLogTableName>database_changelog</databaseChangeLogTableName>-->
                             <tag>${maven.build.timestamp}</tag>
                         </configuration>
                         <executions>
@@ -113,5 +102,4 @@
             </build>
         </profile>
     </profiles>
-
 </project>

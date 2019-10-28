@@ -1,0 +1,16 @@
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (1,'2019-08-28 14:25:33.000000','CREATE_USER',3);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (2,'2019-08-28 14:25:33.000000','CREATE_USER',6);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (3,'2019-08-28 14:25:33.000000','CREATE_USER',2);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (4,'2019-08-28 14:25:33.000000','CREATE_USER',7);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (5,'2019-08-28 14:25:33.000000','CREATE_USER',5);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (6,'2019-08-28 14:25:33.000000','CREATE_USER',16);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (7,'2019-08-28 14:25:33.000000','CREATE_USER',1);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (8,'2019-08-28 14:25:33.000000','CREATE_USER',15);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (9,'2019-08-28 14:25:33.000000','CREATE_USER',14);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (10,'2019-08-28 14:25:33.000000','CREATE_USER',13);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (11,'2019-08-28 14:25:33.000000','CREATE_USER',12);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (12,'2019-08-28 14:25:33.000000','CREATE_USER',11);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (13,'2019-08-28 14:25:33.000000','CREATE_USER',9);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (14,'2019-08-28 14:25:33.000000','CREATE_USER',8);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (15,'2019-08-28 14:25:34.000000','CREATE_USER',55);
+INSERT INTO `customers_audit` (`id`,`createDate`,`operation`,`userId`) VALUES (16,'2019-08-28 14:25:34.000000','CREATE_USER',54);

@@ -1,6 +1,6 @@
 spring:
   profiles:
-    include: local
+    active: local
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/xa_ticket?allowPublicKeyRetrieval=true&useSSL=false&charset=utf8
@@ -13,7 +13,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
   liquibase:
     change-log: classpath:/db/changelog.xml
-    enabled: false
-    database-change-log-lock-table: database_changelog_lock
-    database-change-log-table: database_changelog
+    enabled: true
+#    database-change-log-lock-table: database_changelog_lock
+#    database-change-log-table: database_changelog
     test-rollback-on-update: true
